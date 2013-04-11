@@ -1,0 +1,45 @@
+		p {
+			color: #bfd63a;
+			font: 15px helvetica;
+		}
+		h1 {
+			color: #5c7d14;
+			font: 30px helvetica;
+			font-weight: bold;
+		}
+		h2, h3 {
+			color: #5c7d14;
+			font: 20px helvetica;
+			font-weight: bold;
+			}
+		ol li{
+			color: #d5e0c3;
+			font: 15px helvetica;
+			font-weight: bold;
+		}
+		ul li{
+			color: #5c7d14;
+			font: 20px helvetica
+			font-weight: bold;
+		}
+		#last-paragraph:first-letter{
+			color: #d5e0ce;
+			font: 15px helvetica;
+		}
+		#last-paragraph {
+			color: #d5e0ce;
+			font: 15px helvetica;
+		}
+		p:first-letter{
+			color: #bfd63a;
+			font: 25px helvetica;
+			font-weight: bold;
+		}
+		a:visited{
+			color: #ce1446;
+			font: 15px helvetica;
+		}
+		a:hover{
+			color: green;
+			font: 15px helvetica;
+		}
