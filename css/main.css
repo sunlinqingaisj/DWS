@@ -1,0 +1,38 @@
+body {
+	background-color: #eaefe6;
+	color: rgba (255,0,0,0.5)
+	}
+.title {
+	color: #bfd63a;
+	font: bold 20px/2 helvetica;
+}
+h1 {
+	COLOR: #bfd63a;
+	text-align: center;
+	font-size: 30px;
+}
+.shadow {
+	text-shadow: 3px 2px 2px #5c7d14;
+	}
+#list_style {
+	color: #5c7d14;
+	font-weight: bold;
+	}
+.text {
+	font: normal 15px/2 helcetica;
+	color: #313639;
+	text-align: left;
+	}
+#trade_mark {
+	font-variant: small-caps
+	}
+ul li{
+		color: #5c7d14;
+		font: 15px helvetica;
+		font-weight: bold;
+	}
+img {
+	float: left;
+	padding-right: 10px;   /* dont't forget to change the padding */
+	opacity: 0.8
+	}
