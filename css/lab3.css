@@ -1,0 +1,56 @@
+body{
+	background: #eaefe6;
+}
+
+h1 {
+	color: #5c7d14;
+	font-family: "Aguafina Script", cursive;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0;
+}
+nav li{
+	float: left;
+	padding: 6px;
+	list-style: none;
+}
+
+nav {
+	float: right;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#first_column {
+	float: left;
+	width: 470px;
+	margin: 3px
+}
+
+#gallery li{
+	list-style: none;
+	float: left;
+	width: 33.33%;
+}
+#gallery{
+	overflow: hidden;
+	padding: 0;
+}
+
+	
+#main_content{
+overflow: hidden;
+}
+
+#second_column {
+	float: right;
+	width: 470px;
+	margin: 5px;
+}
+
+#bottom {
+	clear: both;
+}
