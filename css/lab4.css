@@ -1,0 +1,147 @@
+body{
+	background: #a7cfdf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%), url("../images/texture.png") repeat;/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav li{
+	list-style: none;
+	padding: 0 260px;
+}
+nav li a{
+	background: url("../images/nav_pic.gif");
+	display: block;
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-indent: -2000px;
+}
+ nav ul{
+ 	overflow: hidden;
+ }
+
+#h1{
+	clear: left;
+}
+
+h1{
+	margin: 20px 0 19px 0;
+	width: 960px;
+}
+h2{
+	margin: 0 0 19px;
+}
+
+.button{
+	display: block;
+	text-align: center;
+	border: 2px solid #313639;
+	text-decoration: none;
+	width: 100px;
+	color: #eaefe6;
+	background: linear-gradient(#c9de96 0%,#398235 100%);
+	border-radius: 4%;
+}
+
+.button:hover{
+	background: linear-gradient(#398235 0%,#c9de96 100%);
+}
+
+
+/*---------------------------=main_link---------------------------------------
+----------------------------------------------------------------------------*/
+nav li a#product{
+	background-position: 0 0;
+}
+
+nav li a#shop{
+	background-position: -100px 0;
+}
+
+nav li a#support{
+	background-position: -200px 0;
+}
+
+/*---------------------------=hover_link---------------------------------------
+----------------------------------------------------------------------------*/
+
+nav li a#product:hover{
+	background-position: 0 -50px;
+}
+
+nav li a#shop:hover{
+	background-position: -100px -50px;
+}
+
+nav li a#support:hover{
+	background-position: -200px -50px;
+}
+
+/*---------------------------=active_link---------------------------------------
+----------------------------------------------------------------------------*/
+
+nav li a#product:active{
+	background-position: 0 -100px;
+}
+
+nav li a#shop:active{
+	background-position: -100px -100px;
+}
+
+nav li a#support:active{
+	background-position: -200px -100px;
+}
+
+/*-------------------------end_link----------------------------------------------*/
+
+
+#first_column{
+	width: 460px;
+	float: left;
+}
+
+#second_column{
+	width: 460px;
+	float: right;
+	margin: 0 0 10px;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+}
+
+#gallery li{
+	width: 200px;
+	float: left;
+}
+
+#tech{
+	clear: left;
+}
+
+#gallery{
+	width: 100%;
+	padding: 0;
+}
+
+.image{
+	margin-left: 20px;
+}
+
+
+
+
+
