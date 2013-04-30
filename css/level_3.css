@@ -1,0 +1,64 @@
+body{
+	background: #eaefe6;
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1{
+	color: #5c7d14;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.log-in{
+	float: right;
+}
+
+.introduction{
+	padding-left: 10px;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul{
+	padding-left: 0;
+}
+.fix{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+.controls{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+.change{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+fieldset{
+	clear: both;
+}
+
+.note{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+input:focus{
+	background: #facade;
+}
+
+input:hover{
+	border: #5c7d14 2px solid;
+}
+

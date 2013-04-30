@@ -1,0 +1,32 @@
+body{
+	background: #eaefe6;
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1{
+	color: #5c7d14;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.fix{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+.controls{
+	float: left;
+	width: 500px;
+	padding: 10px;
+}
+
+input:focus{
+	background: #facade;
+}
+
+input:hover{
+	border: #5c7d14 2px solid;
+}
